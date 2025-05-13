@@ -1,0 +1,14 @@
+### GET request to example server
+POST http://localhost:4004/api/patient/createPatient
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "Mary Jane Kafka Producer3",
+  "email": "mary_billing_kafka_Producer3.jane@gmail.com",
+  "dateOfBirth": "1990-05-15",
+  "address": "123 Main St, Springfield, USA",
+  "registeredDate": "2023-10-01"
+}
+
+###
